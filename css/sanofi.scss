@@ -727,52 +727,6 @@ $fw-black: 900;
 
 
   .es-articles {
-    background-color: $main-color;
-
-    &__title {
-      width: 100%;
-    }
-
-    &__text {
-      font-family: $title;
-      font-weight: $fw-bold;
-      font-size: $fs-section-title;
-      color: $main-color--2;
-      text-transform: uppercase;
-      margin-bottom: 0;
-    }
-    &__box {
-      @media (min-width: 992px) {
-        display: grid;
-      grid-template-rows: 180px 125px 1fr;
-      }
-      
-  
-    }
-    &__text1 {
-      font-size: $fs-base;
-      color: $main-color--1;
-      margin-bottom: 0;
-
-      @media (min-width: 992px) {
-        padding-inline: 4rem;
-        font-size: calc(1.2 * $fs-base);
-      }
-    }
-
-    &__subtitle {
-      font-size: $fs-base;
-      color: $main-color--2;
-      font-weight: 700;
-      max-width: 360px;
-      text-wrap: balance;
-      margin: 0 auto;
-
-      @media (min-width: 992px) {
-        font-size: calc(1.2 * $fs-base);
-      }
-
-    }
 
     &__button {
       text-decoration: none;
