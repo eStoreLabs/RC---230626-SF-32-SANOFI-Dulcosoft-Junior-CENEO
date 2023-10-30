@@ -48,6 +48,13 @@ ol,p,ul{margin-top:0;margin-bottom:1rem}ol,p,ul{margin-bottom:1rem}img{vertical-
   padding: 0;
   overflow: hidden;
 }
+#es-rc #es-rc-content ul li {
+  list-style: none;
+}
+
+#es-rc #es-rc-content ol li {
+  list-style: arabic;
+}
 #es-rc #es-rc-content .es-image-box {
   overflow: hidden;
 }
